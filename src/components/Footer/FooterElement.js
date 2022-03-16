@@ -6,35 +6,54 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding: 48px 24px 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   max-width: 1100px;
   margin: 0 auto;
+
+  @media screen and (max-width: 820px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
 `;
+
+export const FooterPWrapper = styled.div`
+padding: 10px 24px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+margin: 0 100px 0;
+`
 
 export const FooterP = styled.p`
   color: #f5f5f5;
-  font-size: 10px;
-  padding-right: 20px;
+  width: 350px;
+  font-size: 12px;
+  padding-left: 0px;
+
+  @media screen and (max-width: 820px) {
+    width: 250px;
+
 `;
 
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 820px) {
-    padding-top: 32px;
-  }
 `;
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
+  padding-left: 240px;
 
   @media screen and (max-width: 820px) {
-    flex-direction: column;
+    flex-direction: row;
+    padding-left: 50px;
   }
 `;
 
@@ -86,7 +105,7 @@ export const SocialMediaWrap = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  margin: 40px auto 0 auto;
+  margin: 0px auto 0 auto;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -107,7 +126,8 @@ export const SocialLogo = styled(Link)`
 
 export const WebRights = styled.small`
   color: #f5f5f5;
-  margin-bottom: 16px;
+  font-size: 10px;
+  margin: 10px;
 `;
 
 export const SocialIcons = styled.div`

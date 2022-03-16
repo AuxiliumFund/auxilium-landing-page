@@ -56,10 +56,10 @@ text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
 color: #fff;
-cusrsor: pointer;
+cursor: pointer;
 
 &:hover {
-    color: #01bf71;
+    color: #945147;
     transition: 0.2s ease-in-out;
 `
 
@@ -70,10 +70,10 @@ justify-content: center;
 
 export const TopBarRoute = styled(LinkRouter)`
 border-radius: 50px;
-background: #01bf71;
+background:#945147;
 white-space: nowrap;
 padding: 16px 64px;
-color: #010606;
+color: #fff;
 font-size: 16px;
 outline: none;
 border: none;
@@ -84,7 +84,7 @@ text-decoration: none;
 &:hover {
     transition: 0.2s ease-in-out;
     background: #fff;
-    color: #01bf71;
+    color: #945147;
     `
 
     export const TopBarRoute1 = styled(LinkRouter)`
@@ -99,6 +99,6 @@ text-decoration: none;
     cusrsor: pointer;
     
     &:hover {
-        color: #01bf71;
+        color: #945147;
         transition: 0.2s ease-in-out;
     `
