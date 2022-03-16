@@ -2,6 +2,7 @@ import React from "react";
 import { FaDiscord, FaGithub, FaMedium, FaTwitter } from "react-icons/fa";
 import {
   FooterContainer,
+  FooterPWrapper,
   FooterP,
   FooterWrap,
   FooterLinksWrapper,
@@ -20,7 +21,7 @@ const Footer = () => {
     <>
       <FooterContainer>
         <FooterWrap>
-          <FooterLinksWrapper>
+            <FooterPWrapper>
             <FooterLinkItems>
               <FooterP>
                 Auxilium is building a DeFi Project which helps rug pull victims
@@ -28,33 +29,11 @@ const Footer = () => {
                 community effort, which means that you can participate in the
                 decision-making process!
               </FooterP>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Products</FooterLinkTitle>
-              <FooterLink to="">Staking</FooterLink>
-              <FooterLink to="/">Bonds</FooterLink>
-              <FooterLink to="/">Victims</FooterLink>
-              <FooterLink to="/">NFT</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Governance</FooterLinkTitle>
-              <FooterLink to="/">Voting</FooterLink>
-              <FooterLink to="/">Snapshots</FooterLink>
-              <FooterLink to="/">Forum</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Support</FooterLinkTitle>
-              <FooterLink to="/">Docs</FooterLink>
-              <FooterLink to="/">FAQ</FooterLink>
-              <FooterLink to="/">Discord</FooterLink>
-              <FooterLink to="/">Telegram</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <SocialMedia>
-            <SocialMediaWrap>
               <WebRights>
                 Auxilium Fund © {new Date().getFullYear()} All Rights Reserved{" "}
               </WebRights>
+              <SocialMedia>
+            <SocialMediaWrap>
               <SocialIcons>
                 <SocialIconsLink
                   href="//twitter.com/AuxiliumFund"
@@ -83,6 +62,30 @@ const Footer = () => {
               </SocialIcons>
             </SocialMediaWrap>
           </SocialMedia>
+            </FooterLinkItems>
+            </FooterPWrapper>
+            <FooterLinksWrapper>
+            <FooterLinkItems>
+              <FooterLinkTitle>Products</FooterLinkTitle>
+              <FooterLink to="">Staking</FooterLink>
+              <FooterLink to="/">Bonds</FooterLink>
+              <FooterLink to="/">Victims</FooterLink>
+              <FooterLink to="/">NFT</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Governance</FooterLinkTitle>
+              <FooterLink to="/">Voting</FooterLink>
+              <FooterLink to="/">Snapshots</FooterLink>
+              <FooterLink to="/">Forum</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Support</FooterLinkTitle>
+              <FooterLink to="/">Docs</FooterLink>
+              <FooterLink to="/">FAQ</FooterLink>
+              <FooterLink to="/">Discord</FooterLink>
+              <FooterLink to="/">Telegram</FooterLink>
+            </FooterLinkItems>
+          </FooterLinksWrapper>
         </FooterWrap>
       </FooterContainer>
     </>
