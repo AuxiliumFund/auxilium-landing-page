@@ -35,7 +35,7 @@ margin-left: -200px;
     display: block;
     position: absolute;
     top: -50px;
-    right: 100px;
+    right: 250px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
