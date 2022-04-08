@@ -56,7 +56,7 @@ export const HeroContent = styled.div`
   position: absolute;
   padding: 8px 24px;
   flex-direction: column;
-  algn-items: center;
+  align-items: center;
 `;
 
 export const HeroH1 = styled.h1`
