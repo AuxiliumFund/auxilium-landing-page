@@ -26,6 +26,7 @@ export const HeroContainer = styled.div`
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
+  
 `;
 
 export const HeroBg = styled.div`
@@ -43,8 +44,10 @@ export const VideoBg = styled.video`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
-  background: #23234;
+  object-fit: cover;    
+
+  @media screen and (max-width: 820px) {
+    background-image: url("../../water.jpg");
 `;
 
 export const HeroContent = styled.div`
@@ -53,7 +56,7 @@ export const HeroContent = styled.div`
   position: absolute;
   padding: 8px 24px;
   flex-direction: column;
-  algn-items: center;
+  align-items: center;
 `;
 
 export const HeroH1 = styled.h1`

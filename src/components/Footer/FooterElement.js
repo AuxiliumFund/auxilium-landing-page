@@ -28,7 +28,11 @@ justify-content: center;
 align-items: center;
 max-width: 1200px;
 margin: 0 100px 0;
+
+@media screen and (max-width: 820px) {
+margin: 0 5px 0;
 `
+;
 
 export const FooterP = styled.p`
   color: #f5f5f5;
@@ -37,8 +41,7 @@ export const FooterP = styled.p`
   padding-left: 0px;
 
   @media screen and (max-width: 820px) {
-    width: 250px;
-
+    padding-right: 70px;
 `;
 
 export const FooterLinksContainer = styled.div`
